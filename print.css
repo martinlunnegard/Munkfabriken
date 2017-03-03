@@ -1,0 +1,49 @@
+@media print {
+
+    body {
+        font-size: 12px;
+        font-size: 1.2rem;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    header {
+        background-color: white;
+    }
+
+    span {
+        color:#000;
+    }
+
+    .meny {
+        display: none;
+    }
+
+    .history p:last-child  {
+        display: none;
+    }
+
+    li:nth-child(odd) {
+    font-weight: normal;
+    color: #000;
+    }
+   
+    .start-banner {
+         display: none;
+     }
+
+     #fot {
+         display: none;
+     }     
+
+    #donut {
+       display: none;
+   }
+   
+    #gottfrid {
+         display:none;
+     }
+    
+}
